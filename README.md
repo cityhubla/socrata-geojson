@@ -4,7 +4,7 @@ socrata-geojson
 Convert the data from a Socrata SODA 'geo' json endpoint to actual geoJSON
 
 ## Installation
-    You need python 2.7 or higher for this to work
+    You need python 2.7 or higher for this to work (OSX is already installed, WIN
     pip install -r requirements.txt
 
 ## Usage
@@ -15,8 +15,4 @@ You will end up with a valid GeoJSON file that contains all the objects from the
 
 Try it with
 
-    python parse-socrata-json.py\
-    https://data.cityofchicago.org/resource/alternative-fuel-locations.json?fuel_type_code=CNG\
-    ~/tmp/demo.geojson
-
-![example](https://dl.dropboxusercontent.com/u/187922/Screenshot%202014-06-09%2011.25.20.png)
+    python parse-socrata-json.py https://data.lacity.org/resource/nnrh-gpbn.json 'nameofyournewgeojson'.geojson
