@@ -4,7 +4,7 @@ socrata-geojson
 Convert the data from a Socrata SODA 'geo' json endpoint to actual geoJSON
 
 ## Installation
-
+    You need python 2.7 or higher for this to work
     pip install -r requirements.txt
 
 ## Usage

@@ -26,11 +26,11 @@ if r.status_code != 200:
 rows = loads(r.text)
 
 for row in rows:
-    if not 'location' in row:
+    if not 'location_1' in row:
         # item does not have location, move on.
         no_location += 1
         continue
-    l = row.pop('location')
+    l = row.pop('location_1')
     p = Point((float(l['longitude']), float(l['latitude'])))
     result.append(Feature(geometry=p, properties=row))
     good += 1
