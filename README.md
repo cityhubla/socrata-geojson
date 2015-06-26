@@ -27,4 +27,4 @@ Try it with
 
     python parse-socrata-json.py https://data.lacity.org/resource/nnrh-gpbn.json neighborhoodcouncils.geojson
 
-You can highlight the example and right click to paste in your command prompt, terminal or git shell
+You can highlight the example and right click to paste in your command prompt, terminal or git shell if you don't want to type it up.
