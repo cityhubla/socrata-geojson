@@ -25,4 +25,4 @@ You will end up with a valid GeoJSON file that contains all the objects from the
 
 Try it with
 
-    python parse-socrata-json.py https://data.lacity.org/resource/nnrh-gpbn.json 'nameofyournewgeojson'.geojson
+    python parse-socrata-json.py https://data.lacity.org/resource/nnrh-gpbn.json neighborhoodcouncils.geojson
