@@ -1,7 +1,9 @@
 socrata-geojson
 ===============
 
-Convert the data from a Socrata SODA 'geo' json endpoint to actual geoJSON
+Convert the data from a Socrata SODA 'geo' json endpoint to actual geoJSON.
+
+This gives you another option to download the data if there are no available geojson's to download.
 
 ## Python Setup
 - You need python 2.7 or higher for this to work
