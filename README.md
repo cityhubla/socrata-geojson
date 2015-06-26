@@ -7,6 +7,8 @@ Convert the data from a Socrata SODA 'geo' json endpoint to actual geoJSON
 - You need python 2.7 or higher for this to work
 - OSX has python installed already
 - Windows, you must install from [here](https://www.python.org/downloads/)
+ - In order to call python and it's scripts from the command prompt you must set the environment variables in your Windows Settings, click [here](https://docs.python.org/2/using/windows.html) for instructions on step "3.3. Configuring Python"
+ - Be sure to set both your python folder (ex. C:\python27) and the python script folder (ex. C:\python27\Scripts) to the settings.
 
 ## Installation
 
