@@ -3,11 +3,17 @@ socrata-geojson
 
 Convert the data from a Socrata SODA 'geo' json endpoint to actual geoJSON
 
+## Python Setup
+- You need python 2.7 or higher for this to work
+- OSX has python installed already
+- Windows, you must install from [here](https://www.python.org/downloads/)
+
 ## Installation
-    You need python 2.7 or higher for this to work (OSX is already installed, WIN
+
     pip install -r requirements.txt
 
 ## Usage
+In the command prompt, terminal or git shell type the following
 
     python parse-socrata-json.py URL OUTFILE
 
